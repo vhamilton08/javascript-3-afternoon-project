@@ -22,8 +22,7 @@ var carDetails = {
 */
 
 //Code Here
-function 
-
+const {color, make, model, year} = carDetails
 
 ////////// PROBLEM 2 //////////
 
@@ -35,7 +34,7 @@ function
 
 function greeting( obj ) {
   //Code Here
-  
+  const {firstName, lastName, title} = obj
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
@@ -74,11 +73,9 @@ function totalPopulation(obj){
 
 //Code Here
 function ingredients(obj){
-  const macros = {carb, fat, protein} = obj
-  macros.push(carb, fat, protein)
-return macros
+  const {carb, fat, protein} = obj
+ return obj = ["carb", "fat", "protein"]
 }
-
 
 ////////// PROBLEM 5 //////////
 

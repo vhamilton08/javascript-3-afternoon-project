@@ -159,7 +159,7 @@ var myCar = {
 
 //Code Here
 function recordCleaner(){
-for(let i = 0; i < accidents.length; i++{
+for(let i = 0; i < accidents.length; i++){
   if(atFaultForAccident[i] === true){
     return false
   }
@@ -185,7 +185,13 @@ var numsArr = [ [1, 2, 3, 4], [5, 6], [7, 8, 9, 10, 11]];
 
 //Code Here
 function looper(){
-for(let i = 0; i )
-}
-
-
+  for(let i = 0; i < numsArr.length; i++) {
+    for(let j = 0; j < numsArr.length; j++) {
+     } if(numsArr[i] % 2){
+        return numsArr.splice(i, 1, "even")
+        }else{ return numsArr.splice(j, 1, "odd")
+        
+         }   
+      }
+   } return numsArr
+  
